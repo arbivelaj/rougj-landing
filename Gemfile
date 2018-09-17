@@ -11,7 +11,6 @@ gem 'puma'
 gem 'rack-contrib'
 
 # Assets
-gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
