@@ -74,6 +74,14 @@ body, html {
   letter-spacing: 10px;
 }
 
+.instagram {
+  min-height: 150px;
+  background-color: white;
+  text-align: center;
+  padding-top: 140px;
+  font-weight: 300;
+}
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -88,29 +96,69 @@ h3 {
 
 .first-product-image {
   background-image: url("../../images/17-50-31.png");
-  min-height: 500px;
+  min-height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: 5px black solid;
 }
+
+@keyframes hoverBoard {
+  0% {
+    border: 5px black solid;
+  }
+
+  100% {
+    border: 11px black solid;
+     }
+   }
+
+   @keyframes hoverText {
+     0% {
+       border: 5px black solid;
+     }
+
+     100% {
+       border: 11px black solid;
+        }
+      }
+
+.first-product-image:hover {
+  // border: 20px black solid;
+  animation-name: hoverBoard;
+  animation-duration: 1s;
+  border: 11px black solid;
+
+}
+
 
 .second-product-image {
   background-image: url("../../images/multivit-rosa.jpg");
-  min-height: 500px;
+  min-height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: 5px black solid;
 }
 
+.second-product-image:hover {
+animation-name: hoverBoard;
+animation-duration: 1s;
+border: 11px black solid;
+}
 .third-product-image {
   background-image: url("../../images/aqua.jpg");
-  min-height: 500px;
+  min-height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: 5px black solid;
+}
+
+.third-product-image:hover {
+  animation-name: hoverBoard;
+  animation-duration: 1s;
+  border: 11px black solid;
 }
 
 .instagram-pic-1 {
@@ -146,6 +194,14 @@ h3 {
   margin: auto;
   margin-top: 50%;
   margin-left: 0;
+}
+
+.col-xs-12 {
+  padding: 0;
+}
+
+.col-md-6 {
+  padding: 0;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
