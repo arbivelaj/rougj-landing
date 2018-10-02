@@ -92,7 +92,16 @@ h3 {
 
 .product-text {
    display: flex; align-items: center; justify-content: space-around; min-height: 480px;
+
 }
+
+.product-text:hover{
+  animation-name: hoverText;
+  animation-duration: 1s;
+  -webkit-transform: scale(1.2);
+ }
+
+
 
 .first-product-image {
   background-image: url("../../images/17-50-31.png");
@@ -103,17 +112,17 @@ h3 {
   border: 5px black solid;
 }
 
-@keyframes hoverBoard {
+@keyframes hoverText {
   0% {
-    border: 5px black solid;
+    -webkit-transform: scale(1);
   }
 
   100% {
-    border: 11px black solid;
+    -webkit-transform: scale(1.2);
      }
    }
 
-   @keyframes hoverText {
+   @keyframes hoverBoard {
      0% {
        border: 5px black solid;
      }
@@ -202,6 +211,13 @@ border: 11px black solid;
 
 .col-md-6 {
   padding: 0;
+}
+
+.row {
+  width: 100vw;
+  overflow: hidden;
+  margin-right: 0;
+  margin-left: 0;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
