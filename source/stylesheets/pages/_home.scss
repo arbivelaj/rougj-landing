@@ -110,7 +110,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px black solid;
+  outline: 8px black solid;
 }
 
 @keyframes hoverText {
@@ -125,19 +125,19 @@ h3 {
 
    @keyframes hoverBoard {
      0% {
-       border: 5px black solid;
+       outline: 8px black solid;
      }
 
      100% {
-       border: 11px black solid;
+       outline: 13px black solid;
         }
       }
 
 .first-product-image:hover {
-  // border: 20px black solid;
+  // outline: 20px black solid;
   animation-name: hoverBoard;
   animation-duration: 1s;
-  border: 11px black solid;
+  outline: 13px black solid;
 
 }
 
@@ -148,13 +148,13 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px black solid;
+  outline: 8px black solid;
 }
 
 .second-product-image:hover {
 animation-name: hoverBoard;
 animation-duration: 1s;
-border: 11px black solid;
+outline: 13px black solid;
 }
 .third-product-image {
   background-image: url("../../images/aqua.jpg");
@@ -162,13 +162,13 @@ border: 11px black solid;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px black solid;
+  outline: 8px black solid;
 }
 
 .third-product-image:hover {
   animation-name: hoverBoard;
   animation-duration: 1s;
-  border: 11px black solid;
+  outline: 13px black solid;
 }
 
 .instagram-pic-1 {
@@ -214,12 +214,16 @@ border: 11px black solid;
   padding: 0;
 }
 
+.ninetyeight {
+  width: 97%;
+}
+
 .row {
   width: 100vw;
   overflow: hidden;
   margin-right: 0;
   margin-left: 0;
-  padding: 0px 50px 0 50px;
+  padding: 8px 50px 8px 50px;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
