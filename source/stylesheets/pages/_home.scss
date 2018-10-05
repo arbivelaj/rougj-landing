@@ -135,8 +135,8 @@ h3 {
 
 .first-product-image:hover {
   // outline: 20px black solid;
-  // animation-name: hoverBoard;
-  // animation-duration: 0.4s;
+  animation-name: hoverBoard;
+  animation-duration: 0.2s;
   outline: 13px black solid;
 
 }
@@ -153,7 +153,7 @@ h3 {
 
 .second-product-image:hover {
 animation-name: hoverBoard;
-animation-duration: 0.1s;
+animation-duration: 0.2s;
 outline: 13px black solid;
 }
 .third-product-image {
