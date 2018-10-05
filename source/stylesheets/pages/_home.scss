@@ -223,7 +223,8 @@ outline: 13px black solid;
   overflow: hidden;
   margin-right: 0;
   margin-left: 0;
-  padding: 8px 50px 8px 50px;
+  padding: 12px 50px 8px 50px;
+  height: 51.5vw;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -304,7 +305,7 @@ a:hover {
   width: 100%;
 }
 
-.row {
+.row__inst {
   overflow: scroll;
   width: 100%;
 }
