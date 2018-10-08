@@ -39,17 +39,17 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("../../images/17-50-31.png");
+  background-image: url("../../images/FORTYONE.jpg");
   min-height: 500px;
 }
 
 .bgimg-3 {
-  background-image: url("../../images/multivit-rosa.jpg");
+  background-image: url("../../images/LACCHE.jpg");
   min-height: 500px;
 }
 
 .bgimg-4 {
-  background-image: url("../../images/aqua.jpg");
+  background-image: url("../../images/PALETTE.jpg");
   min-height: 500px;
 }
 
@@ -105,7 +105,7 @@ h3 {
 
 
 .first-product-image {
-  background-image: url("../../images/17-50-31.png");
+  background-image: url("../../images/FORTYONE.jpg");
   min-height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@ h3 {
 
 
 .second-product-image {
-  background-image: url("../../images/multivit-rosa.jpg");
+  background-image: url("../../images/LACCHE.jpg");
   min-height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ animation-duration: 0.2s;
 outline: 13px black solid;
 }
 .third-product-image {
-  background-image: url("../../images/aqua.jpg");
+  background-image: url("../../images/PALETTE.jpg");
   min-height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,6 +166,37 @@ outline: 13px black solid;
 }
 
 .third-product-image:hover {
+  animation-name: hoverBoard;
+  animation-duration: 0.2s;
+  outline: 13px black solid;
+}
+
+
+.fourth-product-image {
+  background-image: url("../../images/ARGAN.jpg");
+  min-height: 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: 8px black solid;
+}
+
+.fourth-product-image:hover {
+  animation-name: hoverBoard;
+  animation-duration: 0.2s;
+  outline: 13px black solid;
+}
+
+.fifth-product-image {
+  background-image: url("../../images/OSSIGENO.jpg");
+  min-height: 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: 8px black solid;
+}
+
+.fifth-product-image:hover {
   animation-name: hoverBoard;
   animation-duration: 0.2s;
   outline: 13px black solid;
@@ -230,7 +261,30 @@ outline: 13px black solid;
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+
+    .row {
+      height: 100vh;
+      padding-top: 5vh !important;
+    }
+
+    span {
+      padding: 15px 8px 15px 8px !important;
+    }
+
+    .first-product-image, .second-product-image, .third-product-image,
+    .fourth-product-image, .fifth-product-image {
+      height: 52vh !important;
+    }
+
+    .instagram {
+      padding-top: 0 !important;
+    }
+
+
+
 }
+
+
 
 
 
