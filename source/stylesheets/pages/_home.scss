@@ -263,7 +263,7 @@ outline: 13px black solid;
     }
 
     .row {
-      height: 100vh;
+      height: 625px;
       padding-top: 5vh !important;
     }
 
@@ -273,11 +273,15 @@ outline: 13px black solid;
 
     .first-product-image, .second-product-image, .third-product-image,
     .fourth-product-image, .fifth-product-image {
-      height: 52vh !important;
+      height: 50vh !important;
     }
 
     .instagram {
       padding-top: 0 !important;
+    }
+
+    .ninetyeight {
+      width: 100%;
     }
 
 
